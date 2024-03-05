@@ -166,7 +166,7 @@
   justify-content: flex-start;
   min-height: 13vh;
   margin-left: 20px;
-  min-width: 45vw;
+  max-width: 43vw;
 }
 
 .foodPrice{

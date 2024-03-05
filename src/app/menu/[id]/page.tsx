@@ -80,7 +80,7 @@ const handleFoodTabChange = (key: string) => {
                   {selectedFoodCategory?.foods.map((drink: Drink) =>
                    <div className="foodItem" key={drink.id} style={{ display: 'flex', alignItems: 'center' }}>
                    <div>
-                       <Image src={drink.image} alt="drink Image" width={80} style={{ minWidth: '90px', height: '120px', objectFit: 'cover', borderRadius: '12px' }} />
+                       <Image src={drink.image} alt="drink Image" width={80} style={{ minWidth: '22vw', height: '120px', objectFit: 'cover', borderRadius: '12px' }} />
                    </div>
                    <div className="footItemInfo">
                        <h3>{drink.name}</h3>
