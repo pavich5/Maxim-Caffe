@@ -86,48 +86,6 @@
   margin-top: 30px;
 }
 
-.categoryDrinksListNoImage{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.categoryDrinkNoImage{
-  display: flex;
-  flex-direction: column;
-  padding: 15px;
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.095);
-  border-radius: 16px;
-  margin-bottom: 14px;
-  border: none;
-  transition: transform 0.3s ease-in-out;
-  width: 95%;
-}
-
-.categoryDrinkNoImage h3 {
-  font-weight: 500;
-  margin: 0;
-}
-
-.categoryDrinkNoImage:hover {
-  transform: translateY(-5px);
-}
-
-.categoryDrinkNoImage h3 {
-  font-size: 16px; 
-  font-weight: 700;
-  color: #333333;
-}
-
-.categoryDrinkNoImage p {
-  font-size: 14px; 
-  color: #666666;
-}
-
-.categoryDrinkNoImage p.price {
-  font-weight: 600; 
-  color: #20bf6b; 
-}
-
 .ant-tabs-tab {
   color: #969186 !important;
 }

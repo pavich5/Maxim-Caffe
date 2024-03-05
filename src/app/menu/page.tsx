@@ -25,7 +25,7 @@ export default function Page({ params }: any) {
         <p style={{ color: company?.categoryTextTitleColor }}>products</p>
         <button
           onClick={() =>
-            router.push(`/${company?.name}/${company?.categories?.[0].id}`)
+            router.push(`/menu/foods`)
           }
           style={{ backgroundColor: company?.headerTextColor, color: company?.categoryTextTitleColor }}        >
           View All Products
