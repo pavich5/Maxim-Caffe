@@ -1,0 +1,187 @@
+.categoryDetailsPageWrapper{
+  background: linear-gradient(to bottom, rgb(243, 243, 243) 0%, white 25%, white 100%);
+}
+.categoryDetailsMain{
+  padding-top: 20px ;
+  min-height: 80vh;
+}
+
+.menuPageHeader{
+  display: flex;
+  height: 60px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.headingName{
+  display: flex;
+  align-items: center;
+}
+
+.headingName h3{
+  margin-left: 20px;
+  margin-top: 2px;
+}
+.headingName span svg {
+  font-size: 17px;
+}
+
+.categoryDrinksList {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.ant-tabs-nav-wrap{
+  margin-left: 10px !important;
+}
+
+.categoryText{
+  padding: 10px;
+  font-size: 30px;
+}
+
+.categoryDrink {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: space-between;
+  width: 93%;
+  padding: 13px;
+  border: none;
+  border-radius: 16px;
+  margin-bottom: 18px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.19);
+  background-color: #fdfdfd;
+}
+
+
+.categoryDrink img {
+  width: 100px;
+  height: 58px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+.categoryDrinkInfo{
+  margin-top: 3px;
+  margin-left: 5px;
+}
+
+.categoryDrinkInfo h3 {
+  font-weight: 900;
+}
+
+.categoryDrinkInfo p {
+  font-weight: 500;
+  color: #969186;
+}
+
+.ladningPageFooter{
+  padding: 25px;
+  text-align: center;
+  color: rgb(128, 111, 111);
+  margin-top: 30px;
+}
+
+.categoryDrinksListNoImage{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.categoryDrinkNoImage{
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.095);
+  border-radius: 16px;
+  margin-bottom: 14px;
+  border: none;
+  transition: transform 0.3s ease-in-out;
+  width: 95%;
+}
+
+.categoryDrinkNoImage h3 {
+  font-weight: 500;
+  margin: 0;
+}
+
+.categoryDrinkNoImage:hover {
+  transform: translateY(-5px);
+}
+
+.categoryDrinkNoImage h3 {
+  font-size: 16px; 
+  font-weight: 700;
+  color: #333333;
+}
+
+.categoryDrinkNoImage p {
+  font-size: 14px; 
+  color: #666666;
+}
+
+.categoryDrinkNoImage p.price {
+  font-weight: 600; 
+  color: #20bf6b; 
+}
+
+.ant-tabs-tab {
+  color: #969186 !important;
+}
+
+.ant-tabs-tab-btn {
+  font-size: 15.5px;
+  font-weight: 500;
+}
+
+.ant-tabs-tab-active .ant-tabs-tab-btn{
+  color: black !important;
+  font-weight: 600;
+}
+.ant-tabs-ink-bar{
+  background-color: #969186 !important;
+}
+
+
+
+.foodItem {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 93%;
+  padding: 13px;
+  border: none;
+  border-radius: 16px;
+  margin-bottom: 18px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.19);
+  background-color: #fdfdfd;
+}
+
+.footItemInfo{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  min-height: 13vh;
+  margin-left: 20px;
+  min-width: 45vw;
+}
+
+.foodPrice{
+  font-weight: 400;
+  font-size: 18px;
+  display: flex;
+  min-width: 100px;
+  margin-left: 10px;
+}
+
+.footItemInfo p{
+  color: rgb(139, 153, 160);
+
+}
+
+
+
+

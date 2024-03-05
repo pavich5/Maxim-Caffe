@@ -1,0 +1,116 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.menuLandingPageWrapper{
+  width: 100%;
+}
+
+
+.headingName{
+  display: flex;
+  align-items: center;
+}
+
+.headingName h3{
+  margin-left: 20px;
+  margin-top: 2px;
+}
+.headingName span svg {
+  font-size: 17px;
+}
+
+
+.landingPageMiddleSection {
+  width: 100%;
+  height: 560px;
+  background-image: url('https://antdisplay.com/pub/media/wysiwyg/Cafe_shop_1_1__1.png');
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  background-size: cover;
+  background-position: center; 
+}
+
+
+.landingPageMiddleSection button{
+  width: 150px;
+  height: 40px;
+  border: none;
+  color: black;
+  font-weight: 600;
+  border-radius: 8px;
+  background-color: orange;
+  margin-top: 30px;
+}
+
+.landingPageMiddleSection h1{
+  font-weight: 900;
+}
+
+.landingPageMiddleSection p {
+  font-weight: 500;
+}
+
+.categoriesList {
+  max-width: 100%;
+}
+.oneCategory{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+}
+.categoriesList h2 {
+  padding: 15px;
+  color: #353b48;
+  margin-left: 5px;
+  padding-top: 40px;
+}
+.oneCategory img {
+  width: 160px;
+  height: 190px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+.oneCategory h4 {
+  font-weight: 500;
+  padding: 10px;
+  padding-left: 0;
+  margin-left: 3px;
+}
+
+.categoires{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px; 
+  justify-items: center;
+}
+
+
+.ladningPageFooter{
+  padding: 25px;
+  text-align: center;
+  color: rgb(128, 111, 111);
+}
+
+.oneCategory {
+  position: relative;
+  display: inline-block;
+}
+
+.categoryName {
+  position: absolute;
+  bottom: 2px;
+  left: 5px;
+  margin: 0;
+  padding: 5px;
+  color: white;
+  font-weight: bolder;
+  font-size: 18px;
+}
